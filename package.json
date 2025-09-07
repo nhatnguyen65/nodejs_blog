@@ -2,9 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "Học Node & ExpressJS",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node --watch --inspect index.js",
+    "start": "node --watch --inspect src/index.js",
+    "watch": "sass --watch src/resources/scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,11 @@
   },
   "homepage": "https://github.com/nhatnguyen65/nodejs_blog#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "sass": "^1.92.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.1"
   }
 }
