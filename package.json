@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Học Node & ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatnguyen65/nodejs_blog.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "nodejs",
+    "nhatnguyen"
+  ],
+  "author": "NhatNguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhatnguyen65/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/nhatnguyen65/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
